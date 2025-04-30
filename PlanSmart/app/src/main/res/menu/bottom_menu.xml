@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todo_list"
+        android:title="Todo List"
+        android:icon="@drawable/temp_todo" />
+
+    <item
+        android:id="@+id/daily_goals"
+        android:title="Recurring"
+        android:icon="@drawable/temp_daily" />
+
+    <item
+        android:id="@+id/bucket_list"
+        android:title="Bucket List"
+        android:icon="@drawable/temp_bucket" />
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/baseline_account_circle_24" />
+</menu>

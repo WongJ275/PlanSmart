@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_bar"
+    app:startDestination="@id/bucket_list">
+
+    <fragment
+        android:id="@+id/todo_list"
+        android:name="com.example.plansmart.todo_list"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list" />
+    <fragment
+        android:id="@+id/daily_goals"
+        android:name="com.example.plansmart.daily_goals"
+        android:label="fragment_daily_goals"
+        tools:layout="@layout/fragment_daily_goals" />
+    <fragment
+        android:id="@+id/bucket_list"
+        android:name="com.example.plansmart.bucket_list"
+        android:label="fragment_bucket_list"
+        tools:layout="@layout/fragment_bucket_list" />
+    <fragment
+        android:id="@+id/account"
+        android:name="com.example.plansmart.Account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

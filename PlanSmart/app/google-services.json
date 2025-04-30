@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444482436462",
+    "project_id": "plan-5c680",
+    "storage_bucket": "plan-5c680.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444482436462:android:442c09bbe6d9780f9f157f",
+        "android_client_info": {
+          "package_name": "com.example.plansmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnsqHcPinVz72kxjq5DNgRz-_BDRXD9Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
